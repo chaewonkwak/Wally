@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="HOME"/>
+
+    <item
+        android:id="@+id/action_talk"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:title="TALK"/>
+
+    <item
+        android:id="@+id/action_market"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="MARKET"/>
+
+    <item
+        android:id="@+id/action_mypage"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="MY"/>
+
+</menu>
