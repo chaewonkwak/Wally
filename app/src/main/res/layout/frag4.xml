@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <ImageView
+        android:layout_width="57dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="40px"
+        android:layout_marginTop="145px"
+        android:layout_marginBottom="10px"
+        android:src="@drawable/ic_baseline_account_circle_24" />
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="마이페이지"
-        android:textSize="40sp"/>
+        android:layout_width="120dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="60px"
+        android:layout_marginTop="-170px"
+        android:layout_marginRight="250px"
+        android:layout_marginBottom="0px"
+        android:background="@drawable/namebox"
+        android:text="  000님\n 안녕하세요!"
+        android:textColor="#8C8C8C"
+        android:textSize="40px" />
 
 </LinearLayout>
