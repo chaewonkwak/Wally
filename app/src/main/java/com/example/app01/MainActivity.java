@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private Frag2 frag2;
     private Frag3 frag3;
     private Frag4 frag4;
+    //private SplashActivity ...
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
