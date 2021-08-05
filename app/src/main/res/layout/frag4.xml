@@ -25,5 +25,6 @@
         android:text="  000님\n 안녕하세요!"
         android:textColor="#8C8C8C"
         android:textSize="40px" />
+    //반영안됨
 
 </LinearLayout>
