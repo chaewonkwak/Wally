@@ -2,22 +2,49 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.app01">
 
+    <uses-permission android:name="android.permission.INTERNET"/> <!-- 인터넷 권한 선언-->
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_main"
         android:label="Wally"
         android:roundIcon="@mipmap/ic_main_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.App01">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true" >
+            <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" >
+             <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter> -->
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
+           <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="c59731322859da6ccc3dabc5987b4646" />
+
     </application>
 
 </manifest>
