@@ -5,37 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
     tools:context=".MainActivity">
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="220dp"
-        android:layout_height="55dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginStart="8dp"
-        android:layout_marginEnd="8dp"
-        android:drawableEnd="@drawable/icon"
-        android:drawablePadding="-20dp"
-        android:gravity="center"
-        android:text="WALLY"
-        android:textColor="#6D19EF"
-        android:textSize="42dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/main_frame"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </TextView>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/main_frame">
-
-    </RelativeLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavi"
@@ -43,26 +13,23 @@
         android:layout_height="wrap_content"
         app:itemIconTint="#6D19EF"
         app:itemTextColor="#6D19EF"
-        android:background="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:menu="@menu/bottom_menu" >
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
+        android:background="#FFFFFF"
+        app:menu="@menu/bottom_menu" />
 
     <FrameLayout
         android:id="@+id/main_frame"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginStart="1dp"
         android:layout_marginEnd="1dp"
         android:layout_marginBottom="1dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView">
-
+        app:layout_constraintTop_toTopOf="parent">
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
