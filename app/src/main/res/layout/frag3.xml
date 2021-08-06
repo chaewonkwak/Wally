@@ -62,7 +62,8 @@
             android:layout_height="204dp"
             android:translationX="20"
             android:translationY="500"
-            app:srcCompat="@drawable/ic_baseline_home_24" />
+            app:srcCompat="@drawable/ic_baseline_home_24"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <SearchView
             android:layout_width="match_parent"
