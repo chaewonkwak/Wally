@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App01">
         <activity
+            android:name=".WallyScoreActivity"
+            android:exported="true" />
+        <activity
+            android:name=".WallyDayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ReviewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ScrapActivity"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
