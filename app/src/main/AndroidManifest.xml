@@ -16,17 +16,17 @@
         <activity android:name = ".SplashActivity"
             android:theme = "@style/SplashTheme"
             android:screenOrientation = "portrait">
-            <intent-filter>
+            <!-- <intent-filter>
                 <action android:name = "android.intent.action.MAIN" />
 
                 <category android:name = "android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter> -->
         </activity>
 
         <activity
             android:name=".LoginActivity"
             android:exported="true" >
-             <!-- <intent-filter>
+              <!-- <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -44,7 +44,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-           <intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
