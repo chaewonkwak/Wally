@@ -1,16 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
-    android:orientation="vertical">
+    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavi"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="마켓화면"
-        android:textColor="#6D19EF"
-        android:textSize="40sp"/>
+        android:background="#FFFFFF"
+        app:itemIconTint="#6D19EF"
+        app:itemTextColor="#6D19EF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_menu" />
 
-</LinearLayout>
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="207dp"
+            android:layout_height="195dp"
+            android:translationX="20"
+            android:translationY="200"
+            app:srcCompat="@drawable/ic_baseline_filter_vintage_24" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="월리네 시장"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="207dp"
+            android:layout_height="204dp"
+            android:translationX="300"
+            android:translationY="200"
+            app:srcCompat="@drawable/ic_baseline_account_balance_wallet_24" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="203dp"
+            android:layout_height="204dp"
+            android:translationX="20"
+            android:translationY="500"
+            app:srcCompat="@drawable/ic_baseline_home_24" />
+
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:translationY="100"
+            android:visibility="visible" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="196dp"
+            android:layout_height="203dp"
+            android:translationX="300"
+            android:translationY="500"
+            app:srcCompat="@drawable/ic_baseline_location_on_24" />
+
+    </FrameLayout>
