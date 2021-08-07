@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".LoginActivity">
 
     <TextView
@@ -14,7 +15,11 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="32dp"
         android:text="WELCOME TO WALLY"
-        android:textSize="24sp"
+        android:textStyle="bold"
+        android:drawableEnd="@drawable/icon1"
+        android:textSize="30sp"
+        android:padding="-40dp"
+        android:gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/et_id"
         app:layout_constraintEnd_toEndOf="@+id/et_id"
         app:layout_constraintStart_toStartOf="@+id/et_id" />
@@ -67,14 +72,13 @@
         android:id="@+id/btn_register"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
+        android:background="#6D19EF"
         android:text="회원가입"
         android:textColor="#FFFFFF"
-        android:background="#6D19EF"
-        app:layout_constraintEnd_toEndOf="@+id/et_pass"
-        app:layout_constraintStart_toStartOf="@+id/et_pass"
+        app:layout_constraintEnd_toEndOf="@+id/btn_login"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_login"
         app:layout_constraintTop_toBottomOf="@+id/btn_login" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

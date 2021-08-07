@@ -27,7 +27,6 @@
 
     <Button
         android:id="@+id/button1"
-        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="78dp"
         android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
@@ -36,10 +35,10 @@
         android:backgroundTint="#FFFFFF"
         android:drawableTop="@drawable/ic_baseline_bookmarks_24"
         android:padding="-10dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:text="스크랩"
         android:textColor="#8C8C8C"
-        android:textSize="12sp"
-        android:translationY="10" />
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/button2"
@@ -48,49 +47,47 @@
         android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="110px"
-        android:layout_marginTop="-210px"
         android:layout_marginRight="240px"
+        android:layout_marginTop="-210px"
         android:backgroundTint="#FFFFFF"
         android:drawableTop="@drawable/ic_baseline_rate_review_24"
         android:padding="-10dp"
         android:text="리뷰"
         android:textColor="#8C8C8C"
-        android:textSize="12sp"
-        android:translationY="10" />
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/button3"
-        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="78dp"
         android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="320px"
-        android:layout_marginTop="-210px"
         android:layout_marginRight="190px"
+        android:layout_marginTop="-210px"
         android:backgroundTint="#FFFFFF"
         android:drawableTop="@drawable/ic_baseline_filter_vintage_24"
         android:padding="-10dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:text="월리데이"
         android:textColor="#8C8C8C"
-        android:textSize="12sp"
-        android:translationY="10" />
+        android:textSize="12sp" />
 
     <Button
         android:id="@+id/button4"
-        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="78dp"
         android:layout_height="80dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginLeft="300px"
-        android:layout_marginTop="-210px"
         android:layout_marginRight="-100px"
+        android:layout_marginTop="-210px"
         android:backgroundTint="#FFFFFF"
         android:drawableTop="@drawable/ic_baseline_account_balance_wallet_24"
         android:padding="-10dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:text="월리점수"
         android:textColor="#8C8C8C"
-        android:textSize="12sp"
-        android:translationY="10" />
+        android:textSize="12sp" />
+
 
 
 </LinearLayout>
