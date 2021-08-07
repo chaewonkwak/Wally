@@ -38,5 +38,6 @@
         android:backgroundTint="#FFFFFF"
         android:scaleType="centerInside"
         app:srcCompat="@drawable/market2" />
+    //다시
 
 </LinearLayout>
