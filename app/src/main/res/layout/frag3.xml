@@ -25,4 +25,10 @@
         android:translationY="-50dp"
         app:srcCompat="@drawable/icon" />
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="192dp"
+        android:layout_height="190dp"
+        app:srcCompat="@drawable/무료나눔" />
+
 </LinearLayout>
