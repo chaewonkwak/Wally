@@ -37,8 +37,8 @@
             android:id="@+id/imageButton4"
             android:layout_width="207dp"
             android:layout_height="195dp"
-            android:translationX="20"
-            android:translationY="200"
+            android:translationX="20dp"
+            android:translationY="200dp"
             app:srcCompat="@drawable/ic_baseline_filter_vintage_24" />
 
         <TextView
@@ -52,31 +52,31 @@
             android:id="@+id/imageButton5"
             android:layout_width="207dp"
             android:layout_height="204dp"
-            android:translationX="300"
-            android:translationY="200"
+            android:translationX="300dp"
+            android:translationY="200dp"
             app:srcCompat="@drawable/ic_baseline_account_balance_wallet_24" />
 
         <ImageButton
             android:id="@+id/imageButton7"
             android:layout_width="203dp"
             android:layout_height="204dp"
-            android:translationX="20"
-            android:translationY="500"
+            android:translationX="20dp"
+            android:translationY="500dp"
             app:srcCompat="@drawable/ic_baseline_home_24"
             tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <SearchView
             android:layout_width="match_parent"
             android:layout_height="64dp"
-            android:translationY="100"
+            android:translationY="100dp"
             android:visibility="visible" />
 
         <ImageButton
             android:id="@+id/imageButton8"
             android:layout_width="196dp"
             android:layout_height="203dp"
-            android:translationX="300"
-            android:translationY="500"
+            android:translationX="300dp"
+            android:translationY="500dp"
             app:srcCompat="@drawable/ic_baseline_location_on_24" />
 
     </FrameLayout>
