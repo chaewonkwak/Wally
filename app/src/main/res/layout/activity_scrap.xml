@@ -6,4 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ScrapActivity">
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="스크랩화면"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="163dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -25,7 +25,7 @@
         android:textStyle="bold"/>
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/imagebtn1"
         android:layout_width="198dp"
         android:layout_height="227dp"
         android:backgroundTint="#FFFFFF"
@@ -33,7 +33,7 @@
         app:srcCompat="@drawable/market1" />
 
     <ImageButton
-        android:id="@+id/imageButton2"
+        android:id="@+id/imagebtn2"
         android:layout_width="203dp"
         android:layout_height="210dp"
         android:backgroundTint="#FFFFFF"
