@@ -18,29 +18,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:drawableStart="@drawable/marketicon"
+        android:drawablePadding="9dp"
         android:text="MARKET"
         android:textColor="#6D19EF"
         android:textSize="40dp"
         android:textStyle="bold"/>
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="195dp"
-        android:layout_height="201dp"
-        android:backgroundTint="#FFFFFF"
-        android:scaleType="centerInside"
-        android:translationX="200dp"
-        android:translationY="120"
-        app:srcCompat="@drawable/market4" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="198dp"
-        android:layout_height="204dp"
-        android:backgroundTint="#FFFFFF"
-        android:scaleType="centerInside"
-        android:translationY="-80"
-        app:srcCompat="@drawable/market3" />
 
     <ImageButton
         android:id="@+id/imageButton5"
@@ -48,19 +30,15 @@
         android:layout_height="227dp"
         android:backgroundTint="#FFFFFF"
         android:scaleType="centerInside"
-        android:translationY="-50"
         app:srcCompat="@drawable/market1" />
 
     <ImageButton
         android:id="@+id/imageButton2"
-        android:layout_width="191dp"
-        android:layout_height="207dp"
+        android:layout_width="203dp"
+        android:layout_height="210dp"
         android:backgroundTint="#FFFFFF"
         android:scaleType="centerInside"
-        android:translationX="200dp"
-        android:translationY="-270dp"
         app:srcCompat="@drawable/market2" />
-
     //다시
 
 </LinearLayout>
