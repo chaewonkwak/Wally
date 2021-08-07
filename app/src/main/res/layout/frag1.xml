@@ -22,11 +22,9 @@
         android:textStyle="bold" >
     </TextView>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="홈화면"
-        android:textColor="#6D19EF"
-        android:textSize="40sp"/>
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 
 </LinearLayout>
