@@ -47,9 +47,18 @@
         android:layout_height="204dp"
         android:backgroundTint="#FFFFFF"
         android:scaleType="centerInside"
-        android:translationX="3"
-        android:translationY="-200"
+        android:translationY="-200dp"
         app:srcCompat="@drawable/market3" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="195dp"
+        android:layout_height="201dp"
+        android:backgroundTint="#FFFFFF"
+        android:scaleType="centerInside"
+        android:translationX="200dp"
+        android:translationY="-400dp"
+        app:srcCompat="@drawable/market4" />
     //다시
 
 </LinearLayout>
