@@ -57,8 +57,8 @@
         android:layout_height="207dp"
         android:backgroundTint="#FFFFFF"
         android:scaleType="centerInside"
-        android:translationX="210dp"
-        android:translationY="-270"
+        android:translationX="200dp"
+        android:translationY="-270dp"
         app:srcCompat="@drawable/market2" />
 
     //다시
