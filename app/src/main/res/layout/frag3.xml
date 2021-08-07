@@ -17,7 +17,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/icon1"
+        android:drawableStart="@drawable/marketicon"
+        android:drawablePadding="9dp"
         android:text="MARKET"
         android:textColor="#6D19EF"
         android:textSize="40dp"
