@@ -25,10 +25,10 @@
         android:translationY="-50dp"
         app:srcCompat="@drawable/icon" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="192dp"
-        android:layout_height="190dp"
-        app:srcCompat="@drawable/무료나눔" />
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="282dp"
+        android:layout_height="271dp"
+        app:srcCompat="@drawable/market1" />
 
 </LinearLayout>
