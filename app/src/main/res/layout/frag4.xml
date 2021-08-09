@@ -1,92 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <ImageView
-        android:layout_width="57dp"
-        android:layout_height="54dp"
-        android:layout_marginLeft="40px"
-        android:layout_marginTop="145px"
-        android:layout_marginBottom="10px"
-        android:src="@drawable/ic_baseline_account_circle_24" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="120dp"
-        android:layout_height="63dp"
-        android:layout_gravity="center"
-        android:layout_marginLeft="60px"
-        android:layout_marginTop="-170px"
-        android:layout_marginRight="250px"
-        android:layout_marginBottom="0px"
-        android:background="@drawable/namebox"
-        android:text="  000님\n 안녕하세요!"
-        android:textColor="#8C8C8C"
-        android:textSize="40px" />
+        <ImageView
+            android:layout_width="57dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_baseline_account_circle_24" />
 
-    <Button
-        android:id="@+id/button1"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="78dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="-100px"
-        android:layout_marginRight="300px"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/ic_baseline_bookmarks_24"
-        android:padding="-10dp"
-        android:text="스크랩"
-        android:textColor="#8C8C8C"
-        android:textSize="12sp" />
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/namebox"
+            android:text="  000님\n 안녕하세요!"
+            android:textColor="#8C8C8C"
+            android:textSize="40px" />
 
-    <Button
-        android:id="@+id/button2"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="74dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="110px"
-        android:layout_marginTop="-210px"
-        android:layout_marginRight="240px"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/ic_baseline_rate_review_24"
-        android:padding="-10dp"
-        android:text="리뷰"
-        android:textColor="#8C8C8C"
-        android:textSize="12sp" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/button3"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="78dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="320px"
-        android:layout_marginTop="-210px"
-        android:layout_marginRight="190px"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/ic_baseline_filter_vintage_24"
-        android:padding="-10dp"
-        android:text="월리데이"
-        android:textColor="#8C8C8C"
-        android:textSize="12sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
 
-    <Button
-        android:id="@+id/button4"
-        style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="78dp"
-        android:layout_height="80dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginLeft="300px"
-        android:layout_marginTop="-210px"
-        android:layout_marginRight="-100px"
-        android:backgroundTint="#FFFFFF"
-        android:drawableTop="@drawable/ic_baseline_account_balance_wallet_24"
-        android:padding="-10dp"
-        android:text="월리점수"
-        android:textColor="#8C8C8C"
-        android:textSize="12sp" />
+        <Button
+            android:id="@+id/button1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="78dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/ic_baseline_bookmarks_24"
+            android:text="스크랩"
+            android:textColor="#8C8C8C"
+            android:textSize="12sp" />
 
+        <Button
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="78dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/ic_baseline_rate_review_24"
+            android:text="리뷰"
+            android:textColor="#8C8C8C"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="78dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/ic_baseline_filter_vintage_24"
+            android:text="월리데이"
+            android:textColor="#8C8C8C"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="78dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:backgroundTint="#FFFFFF"
+            android:drawableTop="@drawable/ic_baseline_account_balance_wallet_24"
+            android:text="월리점수"
+            android:textColor="#8C8C8C"
+            android:textSize="12sp" />
+
+    </LinearLayout>
 
 </LinearLayout>
