@@ -10,12 +10,12 @@ public class SplashActivity extends Activity {
         super.onCreate(savedInstanceState);
 
         try {
-            Thread.sleep(2500);
+            Thread.sleep(2000);
         } catch(InterruptedException e) {
             e.printStackTrace();
         }
 
-        startActivity(new Intent(this, MainActivity.class));
+        startActivity(new Intent(this, LoginActivity.class));
         finish();
     }
 }

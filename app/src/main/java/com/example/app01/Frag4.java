@@ -18,11 +18,11 @@ public class Frag4 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        view = inflater.inflate(R.layout.frag4, container, false);
+        view = inflater.inflate(R.layout.frag4, container, false);      //기존에 있던 거
 
         Button button1, button2, button3, button4;
 
-        button1 = view.findViewById(R.id.button1);
+        button1 = view.findViewById(R.id.button1);      //버튼 변수 선언 후 findViewById 각각 설정
         button2 = view.findViewById(R.id.button2);
         button3 = view.findViewById(R.id.button3);
         button4 = view.findViewById(R.id.button4);
@@ -30,7 +30,7 @@ public class Frag4 extends Fragment {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), ScrapActivity.class);
+                Intent intent = new Intent(getActivity(), ScrapActivity.class);     //frag에서는 this 사용X, getActivity()로 대체, 콤마 뒤에는 버튼을 눌렀을 때 떠야 할 클래스 적기
                 startActivity(intent);
             }
         });
@@ -59,6 +59,6 @@ public class Frag4 extends Fragment {
             }
         });
 
-        return view;
+        return view;    //기존에 있던 거
     }
 }
